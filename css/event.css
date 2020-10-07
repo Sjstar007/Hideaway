@@ -1,0 +1,132 @@
+#h1{ font-size: 50px;font-family: Century;text-align: center; margin-top: 50px; color:  #FFD700;}
+hr{ width: 190px; background-color: gray; margin-left: 560px; margin-top:62px;}
+#hr{float: right; margin-top: -17px; margin-right:497px;}
+h1{height: 10px; font-size: 40px;  margin-top: 10px; margin-left: 60px; font-family: Mistral; color: #FFD700;  }
+p{height: 10px; font-size: 18px;  margin-left: 80px; font-family: Mistral; color: #FFD700; margin-top: -3px;}
+.nav{font-family: Century; margin-top: 14px; display: flex;   font-size: 20px; }
+.nav div{ margin-left: 10px;}
+.nav div a{ text-decoration: none; color:#6c757d;  /*text-shadow: 0px 20px 20px #333;*/ }
+.nav div a:hover{text-shadow: 0 0 3px #FFD700;}
+.head{ box-shadow: 0px -8px 13px 4px #afafaf; }
+.flex{ display: inline-flex; margin-left: 130px; margin-top: 30px;  }
+/*
+.cont{  
+	height: auto;
+	width: auto;
+	margin-right: 75px;
+	margin-left: 75px;
+	display: flex;
+	flex-grow:1; 
+	margin-top: 50px;
+	flex-wrap: wrap;
+
+ }
+
+ .flexcon{
+ 	margin-top: 10px;
+	 width: 330px;
+	 height: 360px;
+	 border-radius: 8px;
+	   margin: auto;
+	   margin-top: 40px;
+	   
+ 
+ }
+.flexcon {font-family: High Tower Text;padding: 5px;}
+*/
+
+.footer{ height: 100px; width: 100%; background-color: black; color: white;text-align: center;  margin-top: 30px;}
+
+.fa-calendar-alt { 
+    position: relative;
+    z-index: 3;
+    left: 770px;
+    top: -25px;
+    color: gray;
+    cursor:pointer;
+    width: 0;
+    font-size: 20px;
+
+}
+
+/*-- flip card */
+
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 330px;
+	height: 380px;
+	border-radius: 10px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+.front img{height: 335px;width: 330px;border-radius: 10px; }
+.front h3{
+color: gray;
+font-family: Mistral;
+margin-left: 20px;
+}
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+	background-color: ;
+	box-shadow: 0px 0px  20px 2px #ffd700; 
+}
+.back img{
+	height: 70px;
+	width: 70px;
+	margin-top: 240px;
+	margin-left: 10px;
+	border-radius: 50px;
+}
+.back h3{
+	text-align: center;
+	font-family: Mistral;
+	font-size: 20px;
+	padding-top: 10px;
+	color: lightgray;
+}
+.back p{
+	margin-left: 10px;
+}
+.back .box12 h5{
+	font-family:Century;
+	margin-top:14px;
+	margin-left:15px;
+}
+.box12{
+	height: 80px;
+	width: 245px;
+	margin-top: -75px;
+	margin-left: 80px;
+	background: transparent;
+
+}

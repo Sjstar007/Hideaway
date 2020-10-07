@@ -1,0 +1,7 @@
+h1{height: 10px; font-size: 40px;  margin-top: 10px; margin-left: 30px; font-family: Mistral; color: #FFD700;  }
+#btn{ margin-top: 16px;font-size: 20px; font-family: ;  float: right; margin-right: 20px; height: 35px; width: 150px; background-color: white;border: 0px; border-radius: 5px; }
+#btn:hover{background-color: #adccff; transition: 2s;  }
+h2{  font-family:High Tower Text; margin-top: 20px; margin-left: 20px; }
+#locat{margin-top: -40px; color: gray;font-family: Mistral; margin-left: 50px;}
+p{ margin-left: 60px; margin-top: -50px; font-family:High Tower Text;}
+.fa-map-marker-alt{ top: -30px;left: 40px; position: relative; }

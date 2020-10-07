@@ -1,0 +1,316 @@
+body{
+		background-color: #dfe6ed;
+	}
+	.sidenavb{
+		height: 100%;
+		background-color: #E74C3C;
+		position: fixed;
+		margin-left: 0px;
+		padding: 0px;
+  		box-shadow: 0px 0px 33px -1px #303030;
+	}
+		.sidenavb a{
+		height: 50px;
+		width: 90%;
+		display: block;
+		text-decoration: none;	
+		margin-top: 10px;
+		border-radius: 30px;
+		margin-left: 10px;
+		padding-left: 40px;
+		padding-top: 13px;
+		color: white;
+	}
+	.sidenavb a.active{
+		background-color: white;
+		color: #E74C3C;
+  		box-shadow: 0px 0px 15px -3px #303030;
+
+	}
+	.sidenavb a:hover:not(.active){
+		background-color: rgba(255, 255, 255, 0.07);
+		color: white;
+	}
+	.sidenavb h2{
+		font-family: Century;
+		text-align: center;
+		color: white;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.sidenavb hr{
+		background-color: white;
+		width: 90%;
+		margin-bottom: 35px;
+	}
+	.content{
+		height: 135px;
+		padding-left: 20px;padding-top: 20px; font-family: forte; color: white;
+		background-color: #141E30;
+	}
+	.inboxcontent{
+		height: 700px;
+		margin-top: -33px;
+ 		background-color:white;
+  		border-radius: 8px;
+  		position: relative;
+  		box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
+  		display: inline-block;
+  		width: 1200px; 
+  		margin-left: 21px;
+  		clear: both;
+  		border: 1px solid lightgray;
+  		margin-bottom: 100px;
+  		padding-top: 10px;
+  		font-family: century;
+	 overflow: auto; 
+	 overflow-x: hidden;
+
+  	}
+		
+	.idcolor{
+		margin-left: 252px;
+	}
+	#search{
+		height: 40px;
+		width: 250px;
+		border-radius: 30px;
+		border: none;
+		background-color: #4e5e7c66;
+		color: white;
+		padding-left: 20px;
+		margin-left: 357px; 
+	} 
+	input[type=text]{
+		width: 300px;
+		border-radius: 30px;
+
+	}
+	input[type=email]{
+		width: 345px;
+		border-radius: 30px;
+		
+	}
+	input[type=number]{
+		width: 300px;
+		border-radius: 30px;
+		
+	}
+	.lable{color: #9A9A9A;position: relative;padding-left: 10px; margin-top: 10px;}
+	.lable1{color: #9A9A9A;position: relative;padding-left: 10px;  margin-top: 10px; margin-left: 20px;}
+	.lable2{color: #9A9A9A;position: relative;padding-left: 10px;  margin-top: 10px; }
+	.lable3{color: #9A9A9A;position: relative;padding-left: 10px;  margin-top: 10px; margin-left: 30px;}
+	.lable4{color: #9A9A9A;position: relative;padding-left: 10px;  margin-top: 10px; margin-left: 30px;}
+	#restroname{
+		width: 470px;
+		margin-left: 30px;
+	}
+	#Address{
+		width: 750px;
+	}
+	#city{
+		margin-left: 30px;
+		width: 367px;
+	}
+	#state{width: 390px;}
+	#zip{width: 345px;}
+	#number{
+		width: 367px;
+		margin-left: 30px;
+	}
+	.textarea{
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: 2px solid orange;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	/* searched food item all*/
+	.contentpart{
+		height: auto;
+		width: 490px;
+		background-color: ;
+		margin-top: -5px;
+		color: black;
+		margin-left:30px;
+		}
+		.contentpart a{
+			text-decoration: none;
+			color: black;
+		}
+		
+		.contentpart h4{
+			padding: 20px;
+		}
+		.contentpart img{
+			height: 60px;
+			width: 60px;
+			float: right;
+			margin-top: -10px;
+			margin-right: -10px;
+		}
+		hr{
+			width: 90%;
+		}
+		/* Assfood.php search food*/
+		#search_Data{
+			width: 500px;
+			margin-left: 30px;
+			height: 60px;
+		}
+		.rightbox{
+			height: 100%;
+			width: 100%;
+			border-left: 1px solid black;
+			 overflow-y: scroll;
+	    overflow-x: hidden; 
+		}
+		#text{
+			text-align: center;
+		}
+
+/*  Loader Comming soon...........*/
+.loader {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ce4233;
+  letter-spacing: 0.2em;
+}
+.loader::before, .loader::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #ce4233;
+  position: absolute;
+  -webkit-animation: load .7s infinite alternate ease-in-out;
+          animation: load .7s infinite alternate ease-in-out;
+}
+.loader::before {
+  top: 0;
+}
+.loader::after {
+  bottom: 0;
+}
+
+@-webkit-keyframes load {
+  0% {
+    left: 0;
+    height: 30px;
+    width: 15px;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    left: 235px;
+    height: 30px;
+    width: 15px;
+  }
+}
+
+@keyframes load {
+  0% {
+    left: 0;
+    height: 30px;
+    width: 15px;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    left: 235px;
+    height: 30px;
+    width: 15px;
+  }
+}
+
+
+/* Circle gear ..............
+.circle {
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
+		background: yellow;
+		border: 0px;
+		position: fixed;
+
+}
+.fas{
+	font-size: 30px;
+	color: black;
+}
+
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}*/
+
+/*book php table content*/
+
+.table{
+	margin-left: 20px;
+	width: 100%;
+	border: 0.5px solid lightgrey;
+}
+.check{
+overflow: auto;
+}
+th{
+	font-size: 16px;
+	padding: 20px;
+	border-bottom: 0.3px solid lightgrey;
+}
+.tablehead{
+	    font-family: Roboto-Bold;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+.image{
+	height: 80px;
+	width: 100px;
+}
+#Pricebox{
+	width: 100px;
+	border: 0.5px solid lightgrey;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+#priceupdate{
+	height: 50px;
+	width: 90px;
+	outline: none;
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid lightgray;
+}
+.table{
+	height: auto;
+	width: 96%;
+	background-color: ;
+	margin-right: 10px;
+}

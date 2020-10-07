@@ -1,0 +1,31 @@
+h1{height: auto; font-size: 80px;  margin-top: 50%; margin-left: 65px; font-family: Mistral; color:  gray; text-align: ; text-shadow: 0 0 4px #FFD700;}
+p{height: auto; font-size: 25px;  margin-top: -50px; margin-left: 130px; font-family: Mistral; color:  gray; text-shadow: 0 04px #FFD700;}
+
+.search{ margin-top: 10px; margin-left: 20px; height: 40px; width: 360px; font-size: 20px; font-family: High Tower Text; border: 1px solid lightgray;  color: gray;
+					position: absolute;padding-left: 38px; border-radius: 24px; outline: none;
+}
+.search:hover{ box-shadow: 0px 0px  2px 2px gray; }
+
+body{height: 100%;
+    background-color: orange;
+	/*background-image: url("../image/beg4.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	 }
+
+#filtersubmit { 
+    position: relative;
+    z-index: 3;
+    left: 30px;
+    top: 18px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+
+}
+
+
+
+
+
+ 

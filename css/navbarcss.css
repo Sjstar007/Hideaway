@@ -1,0 +1,115 @@
+h1{height: 10px; font-size: 40px;  margin-top: 10px; margin-left: 60px; font-family: Mistral; color: white;  }
+p{height: 10px; font-size: 18px;  margin-left: 80px; font-family: Mistral; /*color: #FFD700;*/ color: white; margin-top: -3px;}
+.head1{ box-shadow: 0px -8px 13px 4px #afafaf;   background-color: #FF9D00;}
+.nav{font-family: Century; margin-top: 14px; display: flex;   font-size: 20px;color: white; }
+.nav div{ margin-left: 10px;}
+.nav div a{ text-decoration: none; color:white;  /*text-shadow: 0px 20px 20px #333;*/ }
+.nav div a:hover{text-shadow: 0 0 3px #FFD700;}
+
+input[type=text]{height: 40px; width: 400px; margin-top: 40px; float: right; margin-right: 30px;}
+h2{  margin-top: 20px;font-size: 50px; font-family:High Tower Text; color: white; text-shadow: 0 0 3px black; text-align: center;}
+hr{ background-color: #FFD700; width: 300px;  }
+
+/*body { 
+	
+
+		background-image: url("../image/background.jpg ");	
+		background-size: 100%;
+		background-repeat: no-repeat;
+}*/
+#id{ margin-top: 20px; }
+/*location name */
+.cont{ 
+	height: auto;
+	width: auto;
+
+	display: flex;
+	align-items: baseline;
+
+ }
+
+ .flexcon{
+ 	margin-top: 10px;
+	background:#e9ecef;
+ 	 display: flex;
+	 flex-direction:  row;
+	 width: 100%;
+	 height: 80px;
+	 border-radius: 8px;
+	   margin: auto;
+ 	 text-align: center;
+ 	/* background-image: linear-gradient(120deg, teal,white, yellow);*/
+ 
+ }
+
+
+ .flexcon div { margin-top: 20px; }
+ /*restaurents details */
+ .flexcon div{
+ 	flex-direction: row;
+	flex-grow: 1;
+	align-items: center;
+	font-family:High Tower Text;
+}
+/*.flex-container{
+	margin-top: 10px;
+	background: lightgray;
+ 	 display: flex;
+	 flex-direction:  column;
+	 width: 100%;
+	 height: 200px;
+	 border-radius: 8px;
+	 	/*background-image: linear-gradient(-90deg, red, yellow);
+
+}
+.flex-container:hover{transition: 2s;background-image: linear-gradient(90deg, red, yellow);}*/
+
+.con{ height: auto; background-color: ; margin-top: 10px;width: auto; border: 1px solid lightgray;border-radius: 9px;display: flex;
+	 flex-direction:  column;margin-left: 30px;margin-right: 30px;font-family:High Tower Text; 
+}
+/*.con:hover{background-image: linear-gradient(90deg, #e9ecef, lightgray);	}*/
+#con{ border: none;margin-top: 5px; } 
+.flex-item{ 
+		height:190px;
+		transition: 2s;
+		width: 230px;
+		margin-top: 5px;
+		margin-left: -10px;
+		background-color:  ;
+ 		margin-bottom: 5px;transition: 2s;
+}
+.flex-item img{ height:190px;
+		width: 230px; margin-left: 1px;
+		border-radius: 9px;
+		border: solid 0.5px gray;
+ }
+
+.custom-select{ width: 300px; font-size: 18px;}
+
+.custom{ width: 130px; }
+
+.footer{ height: 300px; width: 100%; background-color: black; color: white;}
+
+.line{ height: 180px; width: 0px; border: .5px solid lightgray;margin-top: 10px; }
+#content{padding-left: 60px;}
+#block{ width: 660px; border: .5px solid #e4e3e3;  }
+#review{ margin-left: 25px; }
+#color{ color: lightgray }
+#btnn{ height: 46px; width: 230px;margin-top: 66px; margin-left: 42px; background-color: white; border: 1px solid #91a596/*#09d838*/; border-radius: 3px; color: gray;   }
+#btnn:hover{ background-color: #b4bfb7; color : white;  }
+.btn{ height: 46px; width: 230px;margin-top: 15px; margin-left: 42px; background-color:#596d5d/* #09d838*/;  color: white;}
+
+.box1{   width: 750px;  height: 50px; border-top: .5px solid #e4e3e3;border-bottom: .5px solid #e4e3e3; padding-top: 15px; margin-top: 25px;margin-bottom: 16px; }
+.box1 a{ text-decoration: none; color: black; }
+.box1 h6{ padding-left: 10px; }
+.box1:hover{background-color:  #e9ecef;}
+
+#cgbtn{width: 660px;  height: 50px; border-top: .5px solid #e4e3e3;border-bottom: .5px solid #e4e3e3; padding-top: 15px; margin-top: 16px;margin-bottom: 16px; background-color: white;}
+#search{ height: 40px; width: 125px; margin-top: 0px;  }
+
+#panel{ height: 200px; width: 100%; background-color: ;display: none; border-radius: px; border-top: px solid lightgray; clear: both;}
+#h4{font-size: 20px; margin-left: 20px; margin-top: 10px;}
+.custom-select{
+	width: 400px;
+	border-radius: 
+}

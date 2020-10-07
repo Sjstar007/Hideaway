@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+	$(".toggle-title").click(function () {
+		$(this).next(".toggle-details").toggle("fast");
+});
+
+</script>
+<style> 
+.toggle-details {
+    display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div class="toggle-title">Show Result 1</div>
+    <div class="toggle-details">
+        Result 1
+    </div>
+
+<div class="toggle-title">Show Result 2</div>
+    <div class="toggle-details">
+        Result 2
+    </div>
+
+<div class="toggle-title">Show Result 3</div>
+    <div class="toggle-details">
+        Result 3
+    </div>
+    
+</body>
+</html>

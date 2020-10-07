@@ -1,0 +1,25 @@
+Register -> 
+Name-
+Mobile_no-
+Password-
+
+Login->
+Email or mobile_no-
+password-
+
+restaurent->
+Image-
+Restaurent name-
+address-
+pribook-
+
+
+Pribook-> 
+members
+Food
+theme- birthday,party,regular
+
+event-
+image 
+event name 
+details 

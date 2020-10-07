@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/navbarcss.css">
+		<link rel="stylesheet" type="text/css" href="font/css/all.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<title>Hideaway</title>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+
+</script>
+</head>
+<body>
+	<div class="container-fluid head">
+		<div class="row">
+			<div class="col-sm-4">
+				<h1>Hideaway</h1><br> 
+				<p>always welcome</p>
+			</div>
+			<div class="col-2"></div>
+			<div class="col-sm-6 nav ">
+				<div style="flex-grow: 1;"><a href="navbar.html">Home</a></div>
+				<div style="flex-grow: 1;"><a href="Event.html">Event</a></div>
+				<div style="flex-grow: 1;"><a href="About">About_us</a></div>	
+				<div style="flex-grow: 1;"><a href="Login.php">Log in</a></div>
+				<div style="flex-grow: 1;"><a href="Register.html">Register</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid cont " id="id">
+		<div class="flexcon">
+			<div style="flex-grow: 2; color: rgb();"><h3>Jodhpur</h3></div>
+			<div style="flex-grow: 2;">
+				<select class="browser-default custom-select">
+ 					<option selected disabled="">Select your place</option>
+ 			 		<option value="1">Restaurants</option>
+ 			 		<option value="2">Cafe & lounge</option>
+ 			 		<option value="3">Pool</option>
+ 			 		<option value="3">Bar</option>
+				</select>
+			</div>
+			<div style="flex-grow: 1;">
+				<select class="browser-default custom-select custom">
+ 					<option selected disabled="">Theme</option>
+ 			 		<option value="1" >Regular</option>
+ 			 		<option value="2">Birthday</option>
+ 			 		<option value="3">Anyversery</option>
+ 			 		<option value="3">Party</option>
+				</select>
+			</div>
+			<div style="flex-grow: 1;">
+				<button class="btn" id="search">Search</button>
+			</div>
+			
+		</div>
+	</div>
+	<!--<div class="container-fluid nav">
+			<div style="flex-grow: 1;"><a href="*">Home</a></div>
+			<div>|</div>
+			<div style="flex-grow: 1;"><a href="*">Event</a></div>
+			<div>|</div>
+			<div style="flex-grow: 1;"><a href="*">About_us</a></div>
+			<div>|</div>
+			<div style="flex-grow: 1;"><a href="*">Log_in</a></div>
+			<div>|</div>
+			<div style="flex-grow: 1;"><a href="*">Register</a></div>
+	</div>-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-5">
+				<h2 >Restaurent</h2>
+			</div>
+			<div class="col-7">
+					<input type="text" name="SearchRestro" placeholder="Search Restaurant You Know" class="form-control" >
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid con" id="id">
+		<div class="row">
+			<div class="col-2 flex-item"><img src="image/bg1.jpg" >	</div>
+			<div class="col-7 " id="content">
+				<h4>Treebo Tryst Parkk Boutique</h4>
+				<h6>Restaurant</h6>
+				<div class="box1" id="flip">
+					<h6><i class="fas fa-map-marker-alt"></i> Location</h6>
+				</div>
+				<h6 id="review">Very good<span id="color">(1900 reviews)</span></h6>
+				<p id="review">Excellent: service Extremely clean</p>
+			</div><div class="line"></div>
+			<div class="col-3">
+				<a href="viewdetail.html"><button class="btn" id="btnn">view detail</button></a>
+				<a href="book.html"><button class="btn">Book now</button></a>
+			</div>
+		</div>
+		<div id="panel">
+			<div class="row">
+				<div class="col-4">Google Map</div>
+				<div class="col-8">
+					<h4 id="h4">4th Floor, The Landmark, Ahinsa Circle, C Scheme, Jaipur, Jaipur 302001 India</h4><br>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container-fluid con" >
+		<div class="row">
+			<div class="col-2 flex-item"><img src="image/bg2.jpg" >	</div>
+			<div class="col-7 " id="content">
+				<h4>Treebo Tryst Parkk Boutique</h4>
+				<h6>Restaurant</h6>
+				<div class="box1">
+					<a href=""><h6><i class="fas fa-map-marker-alt"></i> Location</h6></a>
+				</div>
+				<h6 id="review">Very good<span id="color">(1900 reviews)</span></h6>
+				<p id="review">Excellent: serviceExtremely clean</p>
+			</div><div class="line"></div>
+			<div class="col-3">
+				<button class="btn" id="btnn">view detail</button>
+				<button class="btn">Book now</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid con">
+		<div class="row">
+			<div class="col-2 flex-item"><img src="image/bg3.jpg" >	</div>
+			<div class="col-7 " id="content">
+				<h4>Treebo Tryst Parkk Boutique</h4>
+				<h6>Restaurant</h6>
+				<div class="box1">
+					<a href=""><h6><i class="fas fa-map-marker-alt"></i> Location</h6></a>
+				</div>
+				<h6 id="review">Very good<span id="color">(1900 reviews)</span></h6>
+				<p id="review">Excellent: serviceExtremely clean</p>
+			</div><div class="line"></div>
+			<div class="col-3">
+				<button class="btn" id="btnn">view detail</button>
+				<button class="btn">Book now</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="id">
+		 <div class="row">
+		 	<div class="footer">
+		 		<h2>Hideaway</h2>
+		 		
+		 	</div>
+		 </div>
+	</div>
+	
+			
+	
+</body>
+</html>
+
+<!--<div style="flex-grow: 2;"><a href="*"></a></div>-->
+<!--
+
+
+	<div class="cont">
+			<div class="flex-container">
+				<div class="flex-item">
+					<img src="image/bg2.jpg">		
+				</div>
+			</div>
+	</div>
+	
+
+
+
+
+
+
+
+
+  			-->

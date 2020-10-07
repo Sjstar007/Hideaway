@@ -1,0 +1,39 @@
+.gearbox{
+	height: 60px;
+	width: 60px;
+	margin-left: 1100px;
+	margin-top: 30px;
+	background-color: yellow;
+	position: fixed;
+	border-radius: 50%;
+	border: 0px;
+}
+
+.fas{
+	font-size: 30px;
+	color: black;
+}
+
+#loading {
+		-webkit-animation: rotationright 3s infinite linear;
+}
+
+@-webkit-keyframes rotationright {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+#loading:hover{
+	-webkit-animation: rotationleft 1s infinite linear;
+}
+@-webkit-keyframes rotationleft {
+		from {
+				-webkit-transform: rotate(359deg);
+		}
+		to {
+				-webkit-transform: rotate(0deg);
+		}
+}

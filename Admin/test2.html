@@ -1,0 +1,87 @@
+<?php
+session_start();
+error_reporting();	
+//For connection 
+	$connection=mysqli_connect('localhost','root','','hideaway')or die("not connect");
+				// for Session Id =Rstro Id2 = row
+					$RestroID=$_SESSION['ID']; 
+					$RestroID2=$_SESSION['ID2'];
+	// check admin is login or not 
+		    $logincheck = "select * from restrodetail where RestroID = '".$RestroID."' " ;
+			$result1=mysqli_query($connection,$logincheck);
+		    $row=mysqli_fetch_array($result1); 
+
+		
+		    $Datacheck = "select * from orderdetail where RowID = '".$RestroID2."' " ;
+			$result2=mysqli_query($connection,$Datacheck);
+			$row1=mysqli_fetch_array($result2);
+
+?>
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>AdminUIOne</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/test.css">
+<link rel="stylesheet" type="text/css" href="css/gearbox.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class=" sidenavb" data-background-color="white">
+				<div class="sidebar" data-color="purple" data-background-color="white">
+					<h2>Dashboard</h2>
+				</div>
+				<div class="othercontent">
+					<ul>
+						<li ><a  href="Dsahboard.php">DASHBOARD</a></li>
+						<li> <a  href="Event.php">EVENT'S</a></li>
+						<li><a  href="AddFood.php">ADD FOOD</a></li>
+						<li id="one"><a  href="AdminUIOne.php">EDIT PROFILE</a></li>
+						<li><a href="logout.php">Log out</a></li>
+					</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+			<div class="container-fluid">
+				<div class="row right-side">
+					<div class="col-md-11">
+					<div class="table-info">
+						<div class="table-box">
+							<h4>Edit Profile</h4>
+							<p>Complete your profile</p>
+						</div>
+						<div class="table-cont">
+							<table class="table">
+								<thead class="text-primary">
+									<tr>
+										<th>ID</th>
+										<th>Name</th>
+										<th>Email</th>
+										<th>Password</th>
+										<th>Edit</th>
+										<th>one</th>
+										<th>two</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1.</td>
+										<td>None</td>
+										<td>None</td>
+										<td>None</td>
+										<td>None</td>
+										<td>None</td>
+										<td>None</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+						</div>
+				</div>
+			</div>
+</body>
+</html>

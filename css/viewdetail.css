@@ -1,0 +1,146 @@
+h1{height: 10px; font-size: 40px;  margin-top: 10px; margin-left: 30px; font-family: Mistral; color: #FFD700;  } 
+#btn{ margin-top: 16px;font-size: 20px; font-family: ;  float: right; margin-right: 20px; height: 35px; width: 150px; background-color: white;border: 0px; border-radius: 5px; }
+#btnn{ margin-top: 16px;font-size: 20px; font-family: ;  float: right; margin-right: 20px; height: 37px; width: 130px; background-color: white;border: 0px; border-radius: 5px;padding-left: 10px; }
+
+
+.box{ height: 500px; width: 100%; }
+.box img { height: 500px;width: 100%; }
+.text{ 	font-family:High Tower Text; margin-top: 30px;margin-left: 20px; }
+.subbox{ height: auto; width: auto; background-color:/*#e8eaec*/ ; border-top: 1px solid #c1c4c7; margin-top: -15px; border-radius: 20px; clear: both;}
+.block{ height: 45px; width: auto; background-color: ;text-align: center; padding-top: 10px; border-left: .5px solid #ece7e7;  }
+.block:hover{ background-image: linear-gradient(100deg, #ffffff30, #c1c4c7,#ffffff30); }
+.block a{ text-decoration: none; color: black; }
+.subblock{ height: 100%	; width: 100%;background-color: white; border-radius: 20px;clear: both;  }
+.fa-chevron-left { 
+    position: relative;
+    z-index: 3; 
+    left: 30px;
+    top: -258px;
+    color: transparent;
+    cursor:pointer;
+    width: 0;
+    font-size: 30px;
+
+}
+.fa-chevron-left:hover{color: gray;}
+.fa-chevron-right:hover{ color: gray; }
+.fa-chevron-right { 
+    position: relative;
+    z-index: 3;
+    left: -64px;
+    float: right;
+    top: -258px;
+    color: transparent;
+    cursor:pointer;
+    width: 0;
+    font-size: 30px;
+
+}
+.fa-clock { 
+    color: lightgray; z-index: 3; position: relative;
+    left: 25px;
+   	top: -16px;
+    font-size: 16px;
+
+}
+#locat{margin-top: ; color: gray;font-family: Mistral; margin-left: 50px;}
+#PreBook{ height: 40px; width: 140px; float: right;margin-top: 50px; margin-left: 20px;background-color: #7ee67e;  }
+
+
+
+
+.footer{ height: 100px; width: 100%; background-color: black; color: white;   text-align: center;}
+
+
+#panel{ height: 300px; width: 100%; background-color: ;display: none; border-radius: 9px; }
+#panel1{ height: 300px; width: 100%; background-color:;display: none; border-radius: 9px; }
+#panel2{ height: 300px; width: 100%; background-color:;display: none; border-radius: 9px; }
+
+.head1{ box-shadow: 0px -4px 13px 4px #afafaf;  }
+
+
+
+
+
+/*Image slide bar*/
+
+.image-sliderfade  
+{ 
+  display: none; 
+} 
+  
+img  
+{ 
+  vertical-align: middle; 
+} 
+  
+/* Slideshow container */
+.container  
+{ 
+  max-width: 1000px; 
+  position: relative; 
+  margin: auto; 
+} 
+  
+/* Caption text */
+.text  
+{ 
+  color: #f2f2f2; 
+  font-size: 15px; 
+  padding: 20px 15px; 
+  position: ; 
+  right: 10px; 
+  bottom: 10px; 
+  width: 40%; 
+  background:;
+  color: black; 
+  text-align: left; 
+  float: left;  
+} 
+  
+/* The dots/bullets/indicators */
+.dot  
+{ 
+  height: 15px; 
+  width: 15px; 
+  margin: 0 2px; 
+  background-color: transparent; 
+  border-color: #ddd; 
+  border-width: 5 px; 
+  border-style: solid; 
+  border-radius: 50%; 
+  display: inline-block; 
+  transition: border-color 0.6s ease; 
+} 
+  
+.active  
+{ 
+  border-color: #666; 
+} 
+  
+/* Animation */
+.fade  
+{ 
+  -webkit-animation-name: fade-image; 
+  -webkit-animation-duration: 1.5s; 
+  animation-name: fade-image; 
+  animation-duration: 1.5s; 
+} 
+  
+@-webkit-keyframes fade-image 
+{ 
+  from {opacity: .4}  
+  to {opacity: 1} 
+} 
+  
+@keyframes fade-image 
+{ 
+  from {opacity: .4}  
+  to {opacity: 1} 
+} 
+  
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px)  
+{ 
+  .text {font-size: 11px} 
+} 

@@ -1,0 +1,54 @@
+h1{ font-size: 50px;font-family: Century;text-align: center; margin-top: 20px; color:  #FFD700;}
+hr{ width: 190px; background-color: gray; margin-left: 530px;}
+#hr{float: right; margin-top: -17px; margin-right:524px;}
+body { 
+
+		background-image: url("../image/bg1.png");	
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+
+.cont{ 
+	height: auto;
+	width: auto;
+	margin-right: 75px;
+	margin-left: 75px;
+	display: flex;
+	align-items: baseline;
+	flex-grow: 8;
+	 
+	margin-top: 50px;
+	flex-wrap: wrap;
+
+ }
+
+ .flexcon{
+ 	margin-top: 10px;
+	 background-image: linear-gradient(90deg, teal,white, yellow);
+	 width: 300px;
+	 height: 300px;
+	 border-radius: 8px;
+	   margin: auto;
+	   margin-top: 40px;
+	   
+ 
+ }
+.flexcon img{ height: 250px; width: 300px;border-top-right-radius: 8px; border-top-left-radius: 8px;  }
+.flexcon h4{font-family: High Tower Text;padding: 5px;}
+.flexcon img:hover{transform: rotateY(180deg);}
+
+.footer{ height: 100px; width: 100%; background-color: black; color: white;text-align: center;  margin-top: 30px;}
+
+.fa-calendar-alt { 
+    position: relative;
+    z-index: 3;
+    left: 737px;
+    float: center;
+    top: -27px;
+    color: gray;
+    cursor:pointer;
+    width: 0;
+    font-size: 20px;
+
+}

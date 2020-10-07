@@ -1,0 +1,54 @@
+ body { 
+
+		/*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(254,158,94,1) 0%, rgba(254,94,114,1) 94.3% );
+		background-size: cover;*/
+		background-image: url("../image/bgg1.png");	
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	}
+
+h1{font-family: High Tower Text; color: #FFD700; text-align:center;}
+input[type=text]{ margin-top: 40px; color: green; border-radius: 30px; font-family:centuary; width: 480px; margin-left: 50px; padding-left: 55px;}
+input[type=email]{ margin-top: 20px; color: green; border-radius: 30px; font-family:centuary; width: 480px; margin-left: 50px; padding-left: 55px;}
+input[type=text]:hover{ transition: 1.6s;/* box-shadow: 0px 0px  30px .5px lightblue;*/}
+input[type=email]:hover{ transition: 1.6s;/* box-shadow: 0px 0px  30px .5px lightblue;*/}
+input[type=password]:hover{transition: 1.6s;/*box-shadow: 0px 0px  30px .5px lightblue;*/}
+#detail{height: 100px;padding-left: 10px;padding: 10px; padding-top: 1px;}
+input[type=password]{ margin-top: 30px; color: green; border-radius: 30px; font-family:centuary; width: 480px; margin-left: 50px; padding-left: 55px;}
+.btnn{ width: 260px;margin-top: 28px; margin-left:59px; border-radius: 34px; background-color: white; border: 1px solid gray;}
+.btnn:hover{  background-image: linear-gradient(120deg,#a1c4fd,#c2e9fb); }
+/*.line{height: 510px; border: 1px solid gray; width: 1px; margin-top: 45px; border-top-right-radius: 20px;} 
+/*.btn1{height: 34px; width: 290px; border: 1px solid lightgray; margin-left: 850px; margin-top: -784px; border-radius: 24px; background-color: white; font-family:centuary;}
+.btn2{height: 34px; width: 290px; border: 1px solid lightgray; margin-left: 850px; margin-top: -715px; border-radius: 24px;  background-color: white; font-family:centuary;}
+span{margin-top: 0px; margin-left: -86px; clear: both; }
+/*.fa-facebook-square{color: blue;}
+.fa-google{ background: -webkit-linear-gradient(-80deg, red,yellow,green,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}*/
+h6{font-size: 17px; margin-left: 18px; margin-top: -24px;} 
+.fa-envelope-square{font-size: 20px; color: gray;  position: relative;
+    z-index: 3;
+    left: 67px;
+    top: -29px;
+    color: lightgray;
+    cursor:pointer;
+    width: 0;}
+.fa-lock{
+	position: relative;
+    z-index: 3;
+    left: 69px;
+    top: -31px;
+    color: lightgray;
+    cursor:pointer;
+    width: 0;
+}
+.fa-user{
+	position: relative;
+    z-index: 3;
+    left: 69px;
+    top: -31px;
+    color: lightgray;
+    cursor:pointer;
+    width: 0;
+}

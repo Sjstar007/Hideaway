@@ -1,0 +1,65 @@
+h1{height: 10px; font-size: 50px;  margin-top: 10px;  font-family: Mistral; color: #FFD700; text-align: center;  }
+p{height: 10px; font-size: 20px;  text-align: center; font-family: Mistral; color: #FFD700; margin-top: 3px;}	
+#btnn{ height: 43px; width: 125px; font-family: cursive; margin-top: 38px; float: right; margin-right: 20px; font-size: 19px; color: gray; background-color: white;border: none;}
+#btnn:hover{ height: 43px; width: 125px;   transition: 2s;	} 
+#profile{ display: none; height: 500px; width: 100%;   }
+.line{ height: auto;width: 0px; border: 1px solid lightgray; margin-top: -10px; }
+#hr{ width: 200px; color: black;  }
+.btnn{  height: 36px;
+	width: 210px;
+	margin-left: -14px; 
+	padding-left: 10px; 
+	font-family: Century; 
+	padding-top: 1px;
+	background-color: white;
+	border:0px; 
+	margin-top: 5px;
+	text-align: center;
+}
+.btnn:hover{border-radius: 50px; background-color:#000 ;transition: 1s; color: white;  }
+.btnn a{ text-decoration: none; color: lightgray; }
+
+input[type=file]::-webkit-file-upload-button{ 
+	background-color: white;
+	border: none;
+	height: 40px;
+	width: 150px;
+	border-radius: 10px;
+	background-color: lightgray;
+	 }
+.containerflow{
+	height: auto;
+	width: 100%;
+	background-color: pink;
+}
+.bbbox{
+	height: auto;
+	width: 85%;
+	float: left;
+}
+.xox{
+	height: auto;
+	width: 15%;
+	float: right;
+}
+.dropdown{position: relative;}
+ul.dropdown-menu{
+  position: absolute;
+  min-width: 120px;
+}
+ul.dropdown-menu li{
+  display: block !important;
+  white-space: nowrap;
+}
+.cont{
+	clear: both;
+	height: 400px;
+	width: 100%;
+	background-color: yellow;
+	margin-top: 20px;
+}
+.cont h2{
+	text-align: center ;
+	font-size: 40px;
+	font-family: high tower text;
+}
