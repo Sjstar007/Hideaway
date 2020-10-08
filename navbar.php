@@ -57,7 +57,7 @@ $(document).ready(function(){
 				 ?> 
 				<div style="flex-grow: 1;"><a href="navbar.<?php  ?>">Home</a></div>
 				<div style="flex-grow: 1;"><a href="Event.php" onclick="Event_Data_List();">Event</a></div>
-				<div style="flex-grow: 1;"><a href="About">About_us</a></div>	
+				<!-- <div style="flex-grow: 1;"><a href="About">About_us</a></div>	 -->
 				<div style="flex-grow: 1;"><a href="Login.php">Log in</a></div>
 				<div style="flex-grow: 1;"><a href="Signup.php">Register</a></div>
 			<?php }else {   ?>
@@ -92,6 +92,8 @@ $(document).ready(function(){
  			 		<option value="3">Party</option>
 				</select>
 			</div>
+
+
 			<div style="flex-grow: 1;">
 				<button class="btn" type="submit" id="search">Search</button>
 			</div> -->
